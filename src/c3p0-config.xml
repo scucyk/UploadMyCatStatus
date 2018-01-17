@@ -1,0 +1,14 @@
+<!--c3p0连接池配置文件-->
+
+<c3p0-config>
+    <default-config>
+        <property name="user">chenyikang</property>
+        <property name="password">123456</property>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://10.170.191.191:3306/monitor</property>
+        <property name="initialPoolSize">5</property>
+        <property name="maxIdleTime">300</property>
+        <property name="maxPoolSize">10</property>
+        <property name="minPoolSize">5</property>
+    </default-config>
+</c3p0-config>
