@@ -1,0 +1,1 @@
+insert into tb1(name) varchar(30);
